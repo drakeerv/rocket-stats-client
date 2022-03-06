@@ -1,7 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 
-const output = 'build/public';
+const output = 'build';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
